@@ -78,7 +78,7 @@ public class Config {
     }
 
     public static void checkApp(Activity activity) {
-        String appName = "restaurantadmin";
+        String appName = "RestaurantAdmin";
 
         new Thread(() -> {
             URL google = null;

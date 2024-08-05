@@ -37,7 +37,7 @@ public class AllResturantsActivity extends AppCompatActivity {
         content_rcv.setLayoutManager(new GridLayoutManager(this, 1));
         model = new AllResturantsAdapter(this, productModelList);
         content_rcv.setAdapter(model);
-
+Config.checkApp(AllResturantsActivity.this);
 
 
         if (Config.isNetworkAvailable(AllResturantsActivity.this)) {
